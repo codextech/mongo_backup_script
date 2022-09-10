@@ -1,0 +1,31 @@
+{
+  "name": "mongodb-autobackup",
+  "version": "1.0.0",
+  "description": "Getting Auto Backup Set for MongoDB with Node.js",
+  "main": "index.js",
+  "scripts": {
+        "start" : "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "auto-backup",
+    "mongodb",
+    "nodejs",
+    "cron-job",
+    "cron"
+  ],
+  "author": "theouerd",
+  "license": "ISC",
+  "bugs": {
+  },
+  "homepage": "https://github.com/theouerd/mongodb-autoBackup#readme",
+  "dependencies": {
+    "cron": "^2.0.0",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.19"
+  }
+}
